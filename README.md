@@ -1,5 +1,17 @@
 # LABORATORY-AWS-SES
 
+This project is a laboratory for sending email with and without template using the **SES service** from Amazon. This laboratory is an **express** API located in a **NX Workspace**. The connection to SES has been made using the **aws-sdk**
+
+## Plan of the presentation
+
+I explain with all the details how I build the project and my way of working.
+
+- [Development](#development)
+- [Running](#running)
+- [System](#system)
+
+## Development
+
 #### Prerequisite
 
 - The library aws-sdk
@@ -68,4 +80,24 @@ And if we come back to our aws console, we should be able to see it.
 
 ![./documentation/9.png](./documentation/9.png)
 
+## Running
+
+I am using NX, so for starting the project use the following command:
+
+```bash
+$ nx serve api
+```
+
+## System
+
+Ubuntu Version: Ubuntu 20.04.1 LTS
+Node Version: v16.15.1
+
+```bash
+# Get the version of node
+$ node -v
+
+# Get the latest version of ubuntu
+$ lsb_release -a
+```
 
