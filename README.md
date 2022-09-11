@@ -6,9 +6,18 @@ This project is a laboratory for sending email with and without template using t
 
 I explain with all the details how I build the project and my way of working.
 
+- [Price](#price)
 - [Development](#development)
 - [Running](#running)
 - [System](#system)
+
+## Price
+
+- [mailgun](https://www.mailgun.com/fr/tarifs/)
+- [AWS SES](https://aws.amazon.com/ses/pricing/)
+
+Free until 62k email and only 0.1$ every 1k after.
+This is way cheaper than mailgun for sending email.
 
 ## Development
 
