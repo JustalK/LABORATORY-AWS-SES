@@ -12,6 +12,8 @@ I explain with all the details how I build the project and my way of working.
 
 ## Development
 
+The entire code has been coded in one single file `experience.ts` located in the apps -> api -> src -> app
+
 #### Prerequisite
 
 - The library aws-sdk
@@ -88,6 +90,10 @@ I am using NX, so for starting the project use the following command:
 $ nx serve api
 ```
 
+For testing the app, use Postman.
+
+![./documentation/10.png](./documentation/10.png)
+
 ## System
 
 Ubuntu Version: Ubuntu 20.04.1 LTS
@@ -100,4 +106,3 @@ $ node -v
 # Get the latest version of ubuntu
 $ lsb_release -a
 ```
-
